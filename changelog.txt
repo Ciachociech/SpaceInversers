@@ -1,0 +1,46 @@
+Changelog:
+
+future updates:
+
+- just fixing another problem
+- maybe other things which I haven't imagine yet
+
+0.5 (22/03/2020):
+- drastically changed a chance to shot by enemies and formula to enemy moving speed
+- added an information about score on gameover screen
+- separated scores from "classic" and "endurance" mode
+- added a text about choosing difficulty in a proper menu
+- added second key for shooting
+
+0.4.1 (21/03/2020):
+
+- fixed a problem with endless destroy animation at a beginning of level
+- fixed a problem with bullets (cannot shoot when bullet exist at the end of level)
+- game now has its own icon
+
+0.4 (17/03/2020):
+- adding animation for enemies, bullets and a main character when loses a life
+- adding animation when the player lose a life
+- fixed a problem with highscore text (about best result) and with deleting characters
+- removed an ability of non-stop shooting by pressing shot key for a whole time
+
+0.3 (13/03/2020):
+- added scores and score system (best results)
+- added content for highscore and about menu
+- changed the number of enemies on levels (one less in every row per level)
+- slightly changed the position of lifes' text
+- number of lifes is increased when the level is completed
+- slightly changed a position of menu options
+- fixed other minor errors
+
+0.2 (09/03/2020):
+
+- added information about level and lifes in game
+- fixed and slightly changed the border lose condition
+- slightly changed the start position of main character
+- added different bullet images for enemies
+
+0.1 (07/03/2020):
+
+- here we go!
+- the first playable version

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Elements">
+      <UniqueIdentifier>{b7f83544-76a4-457b-b742-d95e64fe9590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Elements">
+      <UniqueIdentifier>{1bb7d16d-f4dc-45a9-ab57-a5889e027bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Window">
+      <UniqueIdentifier>{3256e1e6-d4c5-41ec-9ccd-ca919f5eb5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Controllers">
+      <UniqueIdentifier>{b29ed5c8-805a-4032-9854-e6aa0bab3dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Controllers">
+      <UniqueIdentifier>{0f0aa5c0-56ea-4d7c-b856-3ba2727dc3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Window">
+      <UniqueIdentifier>{8fa0047a-dcc0-4353-b728-d6d02d1da2c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Instance.cpp">
+      <Filter>Pliki źródłowe\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreController.cpp">
+      <Filter>Pliki źródłowe\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelController.cpp">
+      <Filter>Pliki źródłowe\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityController.cpp">
+      <Filter>Pliki źródłowe\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Pliki źródłowe\Elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance.h">
+      <Filter>Pliki nagłówkowe\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreController.h">
+      <Filter>Pliki nagłówkowe\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelController.h">
+      <Filter>Pliki nagłówkowe\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityController.h">
+      <Filter>Pliki nagłówkowe\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe\Elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
